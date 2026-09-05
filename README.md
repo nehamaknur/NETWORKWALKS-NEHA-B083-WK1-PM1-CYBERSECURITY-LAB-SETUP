@@ -52,7 +52,7 @@ A NAT Network was created and configured in Oracle VM VirtualBox for the cyberse
 | NAT Network       | `10.0.0.0/24` |
 | Gateway           | `10.0.0.1`    |
 
-The Kali Linux virtual machine is connected to this NAT Network.
+The Kali Linux virtual machine was connected to this NAT Network.
 
 ### Kali Linux Network Settings
 
@@ -66,7 +66,7 @@ The Kali Linux virtual machine is connected to this NAT Network.
 
 > **Note:** The network configuration is intended for the isolated cybersecurity laboratory and should not be used to perform unauthorized testing against external systems.
 
-##  Virtual Machine Configuration
+## 💻 Virtual Machine Configuration
 
 The Kali Linux virtual machine was configured with the following settings:
 
@@ -77,69 +77,69 @@ The Kali Linux virtual machine was configured with the following settings:
 
 ## Installation & Setup
 
-### 1. Install VirtualBox
+### 1. Install 7-Zip
 
-Install Oracle VM VirtualBox on the host Windows system.
+7-Zip was installed to extract the downloaded Kali Linux virtual machine files.
 
-Oracle VM VirtualBox was installed on the Windows host to provide the virtualization environment for the cybersecurity lab.
+### 2. Install VirtualBox
 
-### 2. Obtain Kali Linux
+Oracle VM VirtualBox 7.1.18 was installed on the Windows 11 host to provide the virtualization environment for the cybersecurity lab.
 
-Download the required Kali Linux virtual machine files and extract them using 7-Zip.
+### 3. Obtain Kali Linux
+
+The Kali Linux `2026.1` VirtualBox image was downloaded and extracted using 7-Zip before importing it into VirtualBox.
 
 ![Kali Linux Homepage](3-kali-linux.png)
 
-The required Kali Linux VirtualBox image was obtained and extracted using 7-Zip before importing it into VirtualBox.
+### 4. Import the Virtual Machine
 
-A shared folder was created between the Windows host and Kali Linux VM for easy file sharing.
+The downloaded Kali Linux virtual machine was imported into Oracle VM VirtualBox. The virtual machine was configured with **2048 MB RAM** and connected to the **NAT Network**. A shared folder was also created between the Windows host and Kali Linux VM for file sharing.
 
-### 3. Import the Virtual Machine
-
-Import the Kali Linux virtual machine into VirtualBox and verify the virtual hardware configuration.
-
-### 4. Configure the NAT Network
-
-Create the required NAT Network in VirtualBox and configure the lab network.
-
-![NAT Network Configuration](2-network-settings-virtualbox.png)
+### 5. Configure the NAT Network
 
 A dedicated NAT Network was created in VirtualBox to provide the required network environment for the Kali Linux virtual machine.
 
-### 5. Configure Kali Linux Networking
+![NAT Network Configuration](2-network-settings-virtualbox.png)
 
-Configure the Kali Linux virtual machine with the required IP address, gateway, and DNS settings.
-
-![Kali Linux Network Configuration](4-kali-network-settings.png)
+### 6. Configure Kali Linux Networking
 
 Kali Linux was configured with the assigned IP address, default gateway, and working DNS server for network communication.
 
-### 6. 🛜 Verify Connectivity
+![Kali Linux Network Configuration](4-kali-network-settings.png)
 
-Verify the network configuration from Kali Linux using appropriate networking commands.
+### 7. 🛜 Verify Connectivity
 
-Network connectivity was tested from Kali Linux to verify communication through the configured gateway and DNS settings.
+The network configuration was verified from Kali Linux to confirm connectivity through the configured gateway and DNS settings.
 
-### 7. 📸 Create a Snapshot
+### 8. 📸 Create a Snapshot
 
-After completing the initial configuration, create a clean virtual machine snapshot.
+A clean virtual machine snapshot was created after completing the initial configuration.
 
 ![Kali Linux Snapshot](VM-snapshot.png)
 
-This snapshot provides a recovery point that can be restored after experiments or configuration changes.
+## 🔎 Lab Verification
+
+The lab network configuration was verified using the following checks:
+
+* `ip a` — Verified the assigned IP address `10.0.0.2/24`.
+* `ip route` — Verified the default gateway and routing configuration.
+* `ping 10.0.0.1` — Verified connectivity to the NAT Network gateway.
+* `nslookup google.com` — Verified DNS resolution.
+
 
 ## 🔧 Troubleshooting
 
 ### Problem Faced
 
-During the Kali Linux network configuration, the gateway address `10.0.0.1` was initially tested as the DNS server. However, DNS resolution was not working correctly with this configuration.
+During the Kali Linux network configuration, `10.0.0.1` was initially tested as the DNS server, but DNS resolution did not work.
 
 ### Why It Happened
 
-The NAT Network gateway `10.0.0.1` was reachable as the default gateway, but it was not functioning as a DNS resolver in this lab configuration. As a result, network communication through the gateway was available, but domain-name resolution was not working.
+Although `10.0.0.1` was working as the gateway, it was not functioning as a DNS resolver in this lab configuration.
 
 ### How I Recovered
 
-I tested an alternative DNS server and configured `8.8.8.8` as the DNS server in Kali Linux. After applying the change, DNS resolution worked successfully.
+I tested another DNS server and configured `8.8.8.8` in Kali Linux. DNS resolution then worked successfully.
 
 ### Result
 
@@ -151,7 +151,7 @@ The Kali Linux virtual machine was successfully configured with:
 
 The network configuration was then verified successfully, and a clean snapshot named `My Fresh Kali Linux` was created as a recovery point.
 
-## 🔐 Security tools & practice
+## 🔐 Security Tools & Practice
 
 The laboratory will be used to practice cybersecurity concepts including:
 
@@ -191,37 +191,13 @@ All testing will be performed only against systems that are owned by me or expli
 
 * Learned how to document configurations, screenshots, troubleshooting steps, and results in a structured GitHub README.
 
-## 🪜 Learning Goals
-
-This project is part of my hands-on cybersecurity learning journey. The goal is to move beyond theoretical concepts and develop practical experience with:
-
-- Virtualization
-- Networking
-- Linux
-- Cybersecurity tools
-- Reconnaissance
-- Vulnerability assessment
-- Penetration testing
-- Security lab management
-- 
 ## 🛠️ Tools Used
 
-### 💻 Virtualization
-
-* **Oracle VM VirtualBox 7.1.18** — (https://www.virtualbox.org/wiki/Downloads)
-
-### 🐉 Operating System
-
-* **Kali Linux 2026.1** — (https://www.kali.org/get-kali/)
-* 
-### 📦 File Extraction
-
-* **7-Zip** — (https://www.7-zip.org/download.html)
-
-### 📚 Documentation
-
-* **GitHub** —  (https://github.com/)
-
+- **Oracle VM VirtualBox 7.1.18** — (https://www.virtualbox.org/wiki/Downloads)
+- **Kali Linux 2026.1** — (https://www.kali.org/get-kali/)
+- **7-Zip** — (https://www.7-zip.org/download.html)
+- **GitHub** — (https://github.com/)
+  
 # 👤 Author
 
 **Neha**
