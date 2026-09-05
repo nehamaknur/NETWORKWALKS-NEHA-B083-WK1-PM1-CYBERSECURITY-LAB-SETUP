@@ -113,7 +113,7 @@ Configure the Kali Linux virtual machine with the required IP address, gateway, 
 
 Kali Linux was configured with the assigned IP address, default gateway, and working DNS server for network communication.
 
-### 🛜 6. Verify Connectivity
+### 6. 🛜 Verify Connectivity
 
 Verify the network configuration from Kali Linux using appropriate networking commands.
 
