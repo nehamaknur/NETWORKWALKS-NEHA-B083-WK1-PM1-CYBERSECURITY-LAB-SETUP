@@ -56,7 +56,7 @@ The Kali Linux virtual machine was configured with the following settings:
 * **Operating System:** Kali Linux
 * **Virtualization Platform:** Oracle VM VirtualBox
 
-## Installation & Setup
+## 🚀 Installation & Setup
 
 ### 1. Install 7-Zip
 
@@ -101,22 +101,20 @@ Kali Linux was configured with the following network settings:
 
 > **Troubleshooting:** `10.0.0.1` was tested as the DNS server but did not work. `8.8.8.8` was configured and worked successfully.
 
-### 7. Verify Connectivity
-
-The Kali Linux network configuration was verified using the following commands:
-
-| Command | Purpose |
-|---|---|
-| `ip a` | Verified the assigned IP address `10.0.0.2/24` |
-| `ip route` | Verified the default gateway `10.0.0.1` |
-| `ping 10.0.0.1` | Verified connectivity to the NAT Network gateway |
-| `nslookup google.com` | Verified DNS resolution |
-
 ### 8. 📸 Create a Snapshot
 
 A clean virtual machine snapshot was created after completing the initial configuration.
 
 ![Kali Linux Snapshot](VM-snapshot.png)
+
+## 🔎 Lab Verification
+
+| Verification Command | Purpose |
+|---|---|
+| `ip a` | Verified the Kali Linux IP address `10.0.0.2/24` |
+| `ip route` | Verified the default gateway `10.0.0.1` |
+| `ping 10.0.0.1` | Confirmed connectivity to the NAT Network gateway |
+| `nslookup google.com` | Confirmed DNS resolution |
 
 ## 🔧 Troubleshooting
 
