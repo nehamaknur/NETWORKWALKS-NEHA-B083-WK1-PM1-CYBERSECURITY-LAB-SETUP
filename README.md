@@ -18,6 +18,12 @@ The main purpose of this project is to build a hands-on cybersecurity environmen
 - Create virtual machine snapshots for recovery and experimentation.
 - Document the complete setup process for future reference and repeatability.
 
+## 🎯 Purpose of the Lab
+
+The purpose of this lab is to create a controlled virtual environment for learning and practicing cybersecurity concepts, networking, and security tools using Kali Linux.
+
+The lab provides an isolated environment where cybersecurity experiments can be performed safely without affecting real-world systems or networks.
+
 ## ⚙️ Lab Environment
 
 | Component                 | Configuration                                    |
@@ -32,8 +38,6 @@ The main purpose of this project is to build a hands-on cybersecurity environmen
 | Default Gateway           | `10.0.0.1`                                       |
 | DNS Server                | `8.8.8.8`                                        |
 | Snapshot                  | My Fresh Kali Linux                              |
-| Troubleshooting           | `10.0.0.1` did not work as DNS; `8.8.8.8` worked |
-| Lab Purpose               | Cybersecurity Training & Practice                |
 
 This section lists the host system, virtualization software, Kali Linux version, network configuration, and other resources used to build the lab.
 
@@ -42,29 +46,6 @@ This section lists the host system, virtualization software, Kali Linux version,
 ![Cybersecurity Lab Architecture](1-title-image.png)
 
 The lab network can be expanded in future projects by adding additional virtual machines for testing and practice.
-
-## 🌐 Network Configuration
-
-A NAT Network was created and configured in Oracle VM VirtualBox for the cybersecurity lab.
-
-| Network Component | Configuration |
-| ----------------- | ------------- |
-| NAT Network       | `10.0.0.0/24` |
-| Gateway           | `10.0.0.1`    |
-
-The Kali Linux virtual machine was connected to this NAT Network.
-
-### Kali Linux Network Settings
-
-| Network Component | Configuration |
-| ----------------- | ------------- |
-| IP Address        | `10.0.0.2/24` |
-| Default Gateway   | `10.0.0.1`    |
-| DNS Server        | `8.8.8.8`     |
-
-> **Troubleshooting:** `10.0.0.1` was tested as the DNS server but did not work. `8.8.8.8` was configured and worked successfully.
-
-> **Note:** The network configuration is intended for the isolated cybersecurity laboratory and should not be used to perform unauthorized testing against external systems.
 
 ## 💻 Virtual Machine Configuration
 
@@ -97,15 +78,28 @@ The downloaded Kali Linux virtual machine was imported into Oracle VM VirtualBox
 
 ### 5. Configure the NAT Network
 
-A dedicated NAT Network was created in VirtualBox to provide the required network environment for the Kali Linux virtual machine.
+A dedicated NAT Network was created in VirtualBox with the following configuration:
+
+| Network Component | Configuration |
+| ----------------- | ------------- |
+| NAT Network       | `10.0.0.0/24` |
+| Gateway           | `10.0.0.1`    |
 
 ![NAT Network Configuration](2-network-settings-virtualbox.png)
 
 ### 6. Configure Kali Linux Networking
 
-Kali Linux was configured with the assigned IP address, default gateway, and working DNS server for network communication.
+Kali Linux was configured with the following network settings:
+
+| Network Component | Configuration |
+| ----------------- | ------------- |
+| IP Address        | `10.0.0.2/24` |
+| Default Gateway   | `10.0.0.1`    |
+| DNS Server        | `8.8.8.8`     |
 
 ![Kali Linux Network Configuration](4-kali-network-settings.png)
+
+> **Troubleshooting:** `10.0.0.1` was tested as the DNS server but did not work. `8.8.8.8` was configured and worked successfully.
 
 ### 7. 🛜 Verify Connectivity
 
