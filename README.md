@@ -60,8 +60,8 @@ Install Oracle VM VirtualBox on the host Windows system.
 ### 2. Obtain Kali Linux
 
 Download the required Kali Linux virtual machine files and extract them using 7-Zip.
-![Kali Linux Homepage](3-kali-linux.png)
 
+![Kali Linux Homepage](3-kali-linux.png)
 
 ### 3. Import the Virtual Machine
 
@@ -70,10 +70,13 @@ Import the Kali Linux virtual machine into VirtualBox and verify the virtual har
 ### 4. Configure the NAT Network
 
 Create the required NAT Network in VirtualBox and configure the lab network.
+
 ![NAT Network Configuration](2-network-settings-virtualbox.png)
+
 ### 5. Configure Kali Linux Networking
 
 Configure the Kali Linux virtual machine with the required IP address, gateway, and DNS settings.
+
 ![Kali Linux Network Configuration](4-kali-network-settings.png)
 
 ### 6. Verify Connectivity
@@ -85,6 +88,8 @@ Verify the network configuration from Kali Linux using appropriate networking co
 After completing the initial configuration, create a clean virtual machine snapshot.
 
 This snapshot provides a recovery point that can be restored after experiments or configuration changes.
+
+![Kali Linux Snapshot](VM-snapshot.png)
 
 ## Security Tools & Practice
 
