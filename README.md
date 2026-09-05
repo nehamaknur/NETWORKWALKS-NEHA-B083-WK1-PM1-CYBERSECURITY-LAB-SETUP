@@ -114,6 +114,7 @@ A clean virtual machine snapshot was created after completing the initial config
 | `ip a` | Verified the Kali Linux IP address `10.0.0.2/24` |
 | `ip route` | Verified the default gateway `10.0.0.1` |
 | `ping 10.0.0.1` | Confirmed connectivity to the NAT Network gateway |
+| `ping 8.8.8.8` | Confirmed connectivity to the external network |
 | `nslookup google.com` | Confirmed DNS resolution |
 
 ## 🔧 Troubleshooting
