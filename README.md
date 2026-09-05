@@ -39,7 +39,7 @@ This section lists the host system, virtualization software, Kali Linux version,
 
 ## 🖥️ Lab Architecture   
 
-![Cybersecurity Lab Architecture](1.title-image.png)
+![Cybersecurity Lab Architecture](1-title-image.png)
 
 This architecture shows how the Windows host, VirtualBox, NAT Network, and Kali Linux virtual machine are connected.
 
