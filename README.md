@@ -142,20 +142,6 @@ The Kali Linux virtual machine was successfully configured with:
 
 The network configuration was then verified successfully, and a clean snapshot named `My Fresh Kali Linux` was created as a recovery point.
 
-## 🔐 Security Tools & Practice
-
-The laboratory will be used to practice cybersecurity concepts including:
-
-- Network reconnaissance
-- Network scanning
-- Service enumeration
-- Vulnerability assessment
-- Linux security fundamentals
-- Network security concepts
-- Penetration-testing methodologies
-
-All testing will be performed only against systems that are owned by me or explicitly authorized for testing.
-
 ## 📚 What I Learned
 
 ### 💻 Virtualization
@@ -181,6 +167,20 @@ All testing will be performed only against systems that are owned by me or expli
 ### 📝 Documentation
 
 * Learned how to document configurations, screenshots, troubleshooting steps, and results in a structured GitHub README.
+
+## 🔐 Security Tools & Practice
+
+The laboratory will be used to practice cybersecurity concepts including:
+
+- Network reconnaissance
+- Network scanning
+- Service enumeration
+- Vulnerability assessment
+- Linux security fundamentals
+- Network security concepts
+- Penetration-testing methodologies
+
+All testing will be performed only against systems that are owned by me or explicitly authorized for testing.
 
 ## 🛠️ Tools Used
 
