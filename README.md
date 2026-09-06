@@ -108,7 +108,7 @@ Kali Linux was configured with the following network settings:
 
 > **Troubleshooting:** `10.0.0.1` was tested as the DNS server but did not work. `8.8.8.8` was configured and worked successfully.
 
-### 8. 📸 Create a Snapshot
+### 8. Create a Snapshot
 
 A clean virtual machine snapshot was created after completing the initial configuration.
 
