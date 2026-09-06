@@ -13,7 +13,7 @@ Building a custom isolated testing infrastructure on a Windows 11 host with stat
 
 
   
-# **<span style="font-size: 1.5em;">📍 Project Overview</span>**
+## 📍 Project Overview
 
 
 This project documents the setup of an isolated virtual cybersecurity laboratory using Oracle VM VirtualBox and Kali Linux.
