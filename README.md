@@ -7,21 +7,7 @@ Building a custom isolated testing infrastructure on a Windows 11 host with stat
 [![Cybersecurity Lab](https://img.shields.io/badge/Project-Isolated_Cybersecurity_Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/Hypervisor-VirtualBox_v7.1.18-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux_2026.1-orange?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Subnet-10.0.0.0/24-teal?style=for-the-badge)](https://github.com) [![Skill](https://img.shields.io/badge/Skill-Penetration_Testing-red?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com) [![GitHub](https://img.shields.io/badge/GitHub-CortexNeha-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com) [![Author](https://img.shields.io/badge/Author-Neha_Maknur-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com)
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 📍 Project Overview
+## 🚀 Project Overview
 
 This project documents the setup of an isolated virtual cybersecurity laboratory using Oracle VM VirtualBox and Kali Linux.
 
@@ -29,7 +15,7 @@ The lab provides a controlled environment for practicing cybersecurity concepts,
 
 The main purpose of this project is to build a hands-on cybersecurity environment where security tools and techniques can be practiced without affecting real-world systems or networks.
 
-## 🎯 Objectives
+## 🧭 Objectives
 
 - Install and configure Oracle VM VirtualBox and Kali Linux.
 - Build an isolated virtual cybersecurity laboratory.
@@ -77,7 +63,7 @@ The Kali Linux virtual machine was configured with the following settings:
 * **Operating System:** Kali Linux
 * **Virtualization Platform:** Oracle VM VirtualBox
 
-## 🚀 Installation & Setup
+## 🛠️ Installation & Setup
 
 ### 1. Install 7-Zip
 
@@ -217,7 +203,7 @@ Cybersecurity Learner
 
 LinkedIn: (https://lnkd.in/p/d3URNTtf)
 
-## 📍 Project Information
+## 🗂️ Project Information
 
 **Program Name:** Cybersecurity at Networkwalks | **Week:** 01 | **Project:** Cybersecurity & Pentesting Lab Setup | **Repository:** GitHub
 
