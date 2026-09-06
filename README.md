@@ -48,7 +48,7 @@ The lab provides an isolated environment where cybersecurity experiments can be 
 
 This section lists the host system, virtualization software, Kali Linux version, network configuration, and other resources used to build the lab.
 
-## 🖥️ Lab Architecture   
+## 🖧 Lab Architecture   
 
 ![Cybersecurity Lab Architecture](1-title-image.png)
 
