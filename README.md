@@ -1,9 +1,10 @@
 <div align="center">
 
 # 🛡️ Cybersecurity Lab Environment Setup
+
 Building a custom isolated testing infrastructure on a Windows 11 host with static NAT routing, dedicated DNS resolution, and snapshot recovery.
 
-[![Cybersecurity Lab](https://img.shields.io/badge/Project-Isolated_Cybersecurity_Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/Hypervisor-VirtualBox_v7.1.18-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux_2026.1-orange?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Subnet-10.0.0.0/24-teal?style=for-the-badge)](https://github.com)
+[![Cybersecurity Lab](https://img.shields.io/badge/Project-Isolated_Cybersecurity_Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/Hypervisor-VirtualBox_v7.1.18-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Kali Linux](https://img.shields.io/badge/OS-Kali_Linux_2026.1-orange?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Subnet-10.0.0.0/24-teal?style=for-the-badge)](https://github.com) [![Skill](https://img.shields.io/badge/Skill-Penetration_Testing-red?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com) [![GitHub](https://img.shields.io/badge/GitHub-CortexNeha-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com) [![Author](https://img.shields.io/badge/Author-Neha-blue?style=for-the-badge&logo=readthedocs&logoColor=white)](https://github.com)
 
 
 </div>
