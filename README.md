@@ -1,8 +1,10 @@
-                                                   # 🛡️ Cybersecurity Lab Environment Setup
+<div align="center">
 
-                           Building an isolated virtual lab for penetration testing, network analysis, and ethical hacking practice.
+# 🛡️ Cybersecurity Lab Environment Setup
 
-[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.1.18-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Network-10.0.0.0/24-teal?style=for-the-badge)](https://github.com) [![TryHackMe](https://img.shields.io/badge/TryHackMe-CortexNeha-1f4e79?style=for-the-badge&logo=tryhackme&logoColor=white)](https://github.com) [![Linux](https://img.shields.io/badge/Linux-Kali_2026.1-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com) [![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-Active-red?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com) [![GitHub](https://img.shields.io/badge/GitHub-CortexNeha-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com) [![Ethical Hacking](https://img.shields.io/badge/Ethical_Hacking-Practice-orange?style=for-the-badge&logo=wireshark&logoColor=white)](https://github.com) [![Virtualization](https://img.shields.io/badge/Virtualization-Enabled-purple?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![NetworkWalks](https://img.shields.io/badge/NetworkWalks-Lab-darkgreen?style=for-the-badge)](https://github.com)
+[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.1.18-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Network-10.0.0.0/24-teal?style=for-the-badge)](https://github.com) [![TryHackMe](https://img.shields.io/badge/TryHackMe-CortexNeha-1f4e79?style=for-the-badge&logo=tryhackme&logoColor=white)](https://github.com) [![Linux](https://img.shields.io/badge/Linux-Kali_2026.1-orange?style=for-the-badge&logo=linux&logoColor=white)](https://github.com) [![Penetration Testing](https://img.shields.io/badge/Penetration_Testing-Active-red?style=for-the-badge&logo=hackthebox&logoColor=white)](https://github.com) [![GitHub](https://img.shields.io/badge/GitHub-CortexNeha-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com)
+
+</div>
 
 ## 📍 Project Overview
 
