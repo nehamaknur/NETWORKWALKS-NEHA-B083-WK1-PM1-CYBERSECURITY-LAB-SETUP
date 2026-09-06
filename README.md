@@ -194,7 +194,7 @@ All testing will be performed only against systems that are owned by me or expli
 B.Sc. Computer Science Graduate
 Cybersecurity Learner
 
-LinkedIn:(https://lnkd.in/p/d-sfgpgi)
+LinkedIn: (https://lnkd.in/p/d3URNTtf)
 
 ## 📍 Project Information
 
