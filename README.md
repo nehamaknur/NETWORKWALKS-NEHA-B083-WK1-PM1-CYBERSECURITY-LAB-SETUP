@@ -1,4 +1,8 @@
-# Cybersecurity Lab Setup
+# 🛡️ Cybersecurity Lab Environment Setup
+
+Building an isolated virtual lab for penetration testing, network analysis, and ethical hacking practice.
+
+[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Lab-00ff66?style=for-the-badge&logo=kalilinux&logoColor=white)](https://github.com) [![VirtualBox](https://img.shields.io/badge/VirtualBox-v7.2-blue?style=for-the-badge&logo=virtualbox&logoColor=white)](https://github.com) [![Network](https://img.shields.io/badge/Network-10.0.0.0/24-teal?style=for-the-badge)](https://github.com) [![TryHackMe](https://img.shields.io/badge/TryHackMe-CortexNeha-1f4e79?style=for-the-badge&logo=tryhackme&logoColor=white)](https://github.com)
 
 ## 📍 Project Overview
 
