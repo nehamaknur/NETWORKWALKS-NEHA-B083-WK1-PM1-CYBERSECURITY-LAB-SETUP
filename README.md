@@ -54,15 +54,6 @@ This section lists the host system, virtualization software, Kali Linux version,
 
 The lab network can be expanded in future projects by adding additional virtual machines for testing and practice.
 
-## 💻 Virtual Machine Configuration
-
-The Kali Linux virtual machine was configured with the following settings:
-
-* **RAM:** `2048 MB`
-* **Network Adapter:** NAT Network
-* **Operating System:** Kali Linux
-* **Virtualization Platform:** Oracle VM VirtualBox
-
 ## 🛠️ Installation & Setup
 
 ### 1. Install 7-Zip
@@ -73,44 +64,53 @@ The Kali Linux virtual machine was configured with the following settings:
 
 Oracle VM VirtualBox 7.1.18 was installed on the Windows 11 host to provide the virtualization environment for the cybersecurity lab.
 
-### 3. Obtain Kali Linux
-
-The Kali Linux `2026.1` VirtualBox image was downloaded and extracted using 7-Zip before importing it into VirtualBox.
-
-![Kali Linux Homepage](3-kali-linux.png)
-
-### 4. Import the Virtual Machine
-
-The downloaded Kali Linux virtual machine was imported into Oracle VM VirtualBox. The virtual machine was configured with **2048 MB RAM** and connected to the **NAT Network**. A shared folder was also created between the Windows host and Kali Linux VM for file sharing.
-
-### 5. Configure the NAT Network
+### 3. Configure the NAT Network
 
 A dedicated NAT Network was created in VirtualBox with the following configuration:
 
 | Network Component | Configuration |
 | ----------------- | ------------- |
-| NAT Network       | `10.0.0.0/24` |
-| Gateway           | `10.0.0.1`    |
+|     Name          |  `NatNetwork` |
+|     IPV4          | `10.0.0.0/24` |
+|     DHCP          |   `Enabled`   |
+|     IPV6          |   `Disabled`  |
 
 ![NAT Network Configuration](2-network-settings-virtualbox.png)
 
-### 6. Configure Kali Linux Networking
+### 4. Import Kali Linux
+
+The Kali Linux `2026.1` VirtualBox image was downloaded and extracted using 7-Zip before importing it into VirtualBox.
+
+The Kali Linux virtual machine was configured with the following settings:
+
+* **RAM:** `2048 MB`
+* **Network Adapter:** `NAT Network`
+* **Adapter Type:** `Intel PRO/1000 MT Desktop`
+* **Operating System:** `Kali Linux`
+* **Virtualization Platform:** `Oracle VM VirtualBox`
+
+![Kali Linux Homepage](3-kali-linux.png)
+  
+A shared folder was also created between the Windows host and Kali Linux VM for file sharing.
+
+### 5. Configure Kali Linux Network
 
 Kali Linux was configured with the following network settings:
 
 | Network Component | Configuration |
 | ----------------- | ------------- |
 | IP Address        | `10.0.0.2/24` |
-| Default Gateway   | `10.0.0.1`    |
-| DNS Server        | `8.8.8.8`     |
+| Subnet Mask       |`255.255.255.0`|
+| Default Gateway   |  `10.0.0.1`   |
+| DNS Server        |   `8.8.8.8`   |
 
 ![Kali Linux Network Configuration](4-kali-network-settings.png)
 
 > **Troubleshooting:** `10.0.0.1` was tested as the DNS server but did not work. `8.8.8.8` was configured and worked successfully.
 
-### 8. Create a Snapshot
+### 6. Create a Snapshot
 
-A clean virtual machine snapshot was created after completing the initial configuration.
+A clean virtual machine snapshot was created after completing the initial configuration to serve as a reliable baseline for system recovery.
 
 ![Kali Linux Snapshot](VM-snapshot.png)
 
@@ -198,8 +198,8 @@ All testing will be performed only against systems that are owned by me or expli
 # 👤 Author
 
 **Neha Maknur**
-B.Sc. Computer Science Graduate
-Cybersecurity Learner
+B.Sc. Computer Science Graduate |
+Aspiring Cyber Security Professional
 
 LinkedIn: (https://lnkd.in/p/d3URNTtf)
 
